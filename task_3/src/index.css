@@ -1,0 +1,40 @@
+.app {
+  display: grid;
+  gap: 10px;
+  max-width: 1024px;
+  padding: 10px;
+}
+
+.custom-toggler {
+  display: flex;
+}
+
+.custom-toggler__button {
+  border: none;
+  background: none;
+}
+
+.custom-toggler__button--active {
+  font-weight: bold;
+}
+
+.custom-table {
+  border-collapse: collapse;
+  border: 1px solid grey;
+}
+
+.custom-table td {
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+.custom-tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.custom-tiles__item {
+  padding: 5px;
+  border: 1px solid grey;
+}
